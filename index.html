@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonte del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title> Alura Geek</title>
+</head>
+<body>
+    <div>   <!--Seccion logo-->
+        <section class="logo">
+            <header class="logo__header">
+                <img class="logo__img" src="assets/logo.png">
+            </header>  
+        </section>
+    </div>
+   
+    <main>
+        <section class="products">
+            <h2 class="products__tittle">MIS PRODUCTOS:</h2>
+            <!-- Productos se agregarán aquí -->
+           <div  class="card" data-lista >
+              <!--  <div class="card__image">
+                    <img  class="imagen__producto" src="assets/stormtrooper.png" />
+                    <div class="card-container--info">
+                      <p class="name__product">Stormtrooper</p>
+                      <div class="card-container--value">
+                        <p class="price__product" >$ 600.00</p>
+                    <button class="eliminar" data-id="${id}">
+                        <div class="icono__papelera" >
+                            <img src="assets/trashicon.png" />
+                        </div>
+                    </button>
+                      </div>
+                    </div>
+                  </div>
+                <div class="card__image">
+                    <img   src="assets/stormtrooper.png"  class="image__product"  alt="imagen" />
+                    <div class="card-container--info">
+                      <p class="name__product">Nombre</p>
+                      <div class="card-container--value">
+                        <p class="price__product" >$ 600.00</p>
+                    <button class="eliminar" data-id="${id}">
+                        <div class="icono__papelera" >
+                            <img src="assets/trashicon.png" alt="Eliminar" />
+                        </div>
+                    </button>
+                      </div>
+                    </div>
+                  </div>
+                -->
+            </div>
+        </section>
+        <section class="add-product">
+            <h2>AGREGAR PRODUCTO:</h2>
+            <form class="form-container" data-form >
+                <input  name="name__product" id="name"  data-name placeholder="nombre..." type="text">
+                <input name="price__product" id="price" data-price placeholder="precio..." type="text">
+                <input name="image__product" id="image" data-image placeholder="imagen..." type="text">
+
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Enviar</button>
+                    <button type="reset" class="button-clear" id="button">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="logof">
+        <img class="logo__footer" src="assets/Logo final.png">
+        <p>Desarrollado por Juan Camilo López Arenas </p>
+        <h3>Alura - 2024</h3>
+    </footer>
+    <script src="./js/mostrarproducto.js" type="module" ></script>
+    <script src="./js/crearProducto.js" type="module" ></script>
+    <script src="./js/conexionapi.js" type="module" ></script>
+
+</body>
+</html>

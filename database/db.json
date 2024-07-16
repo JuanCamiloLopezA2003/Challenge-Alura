@@ -1,0 +1,35 @@
+{
+    "products":[
+        {
+            "name": "Darth Vader",
+            "price": "40000",
+            "image":"https://w7.pngwing.com/pngs/683/396/png-transparent-anakin-skywalker-funko-luke-skywalker-action-toy-figures-bobblehead-darth-vader-head-fictional-character-anakin-skywalker-doll-thumbnail.png",
+            "id":"1"
+        },
+        {
+            "name":"Stormtrooper",
+            "price":"$500.000",
+            "image":"https://w7.pngwing.com/pngs/671/993/png-transparent-stormtrooper-supreme-leader-snoke-funko-first-order-star-wars-pop-star-star-wars-episode-vii-protective-gear-in-sports-star-wars-sequel-trilogy-thumbnail.png",
+            "id":"2"
+        },
+        {
+            "name":"Chewbacca",
+            "price":"40000",
+            "image":"https://w7.pngwing.com/pngs/620/219/png-transparent-chewbacca-star-wars-episode-vii-c-3po-obi-wan-kenobi-funko-chewbacca-star-wars-episode-vii-film-star-wars-sequel-trilogy-thumbnail.png",
+            "id":"3"
+        },
+        {
+            "name":"Kylo Ren",
+            "price":"60000",
+            "image":"https://w7.pngwing.com/pngs/172/567/png-transparent-kylo-ren-funko-bb-8-bobblehead-action-toy-figures-toy-photography-star-wars-episode-vii-bb8-thumbnail.png",
+            "id":"4"
+        },
+        {
+            "name":"Leia Organa",
+            "price":"65000",
+            "image":"https://w7.pngwing.com/pngs/357/211/png-transparent-leia-organa-star-wars-the-last-jedi-r2-d2-carrie-fisher-funko-princess-leia-star-wars-episode-vii-film-star-wars-sequel-trilogy-thumbnail.png",
+            "id":"5"
+        }
+
+    ]
+}

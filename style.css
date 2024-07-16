@@ -1,0 +1,122 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.logo__img {
+   width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.products {
+    width: 60%;
+}
+
+.products__tittle {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color: white;
+    margin-bottom: 1em 
+    
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-container--info {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.card-container--value {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.card-container--value img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    
+}
+
+.add-product {
+    width: 35%;
+    border: 2px solid #6d2ca9;
+    padding: 1em;
+    background-color: #f9f9f9;
+}
+
+.add-product h2 {
+    text-align: center;
+}
+
+.form-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    gap: 1rem;
+  }
+  
+  input{
+    padding: 1rem;
+    width: 80%;
+    border-radius: 20px;
+    border: solid 2px;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  .button-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .button-clear{
+    border: solid 2px blue;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 90px;
+    height: auto;
+    background-color: #f6f6f6;
+    cursor: pointer;
+  
+  }
+  
+  .button-submit{
+    border: solid 2px #f6f6f6;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(58, 58, 202);
+    color: #f6f6f6;
+    cursor: pointer;
+  
+  }
+
+.logof {
+    text-align: center;
+    color: #ccc;
+    background-color: #5D04D9;
+}
